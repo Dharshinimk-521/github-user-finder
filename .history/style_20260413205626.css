@@ -1,0 +1,10 @@
+body{
+    background-color: #523D49;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    text-align: center;
+}
+.title{
+   font-size:40px;
+   text-decoration: dashed;
+}

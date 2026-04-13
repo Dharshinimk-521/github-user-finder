@@ -1,0 +1,102 @@
+body{
+    background-color: #523D49;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    text-align: center;
+}
+.title{
+   font-size:45px;
+   text-decoration: dashed;
+}
+#input{
+    background-color: rgba(0, 0, 0, 0.6); /* black with opacity */
+    color: white;
+    padding: 20px;
+    margin:15px;
+    border: 2px solid white;
+    border-radius: 2px;
+    outline:purple;
+    width:300px;
+}
+#input:focus{
+    border-color: #00ffcc;
+    box-shadow: 0 0 10px #00ffcc; 
+}
+#search{
+    padding:10px;
+    margin: 20px 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+#profile{
+    display: flex;
+    flex-direction: column;   /* stack items */
+    align-items: center;      /* center everything */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    width: 400px;
+    border-radius: 10px;
+}
+.repo-container {
+    margin-top: 20px;
+}
+
+
+.repo-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+.repo-card a:hover {
+    text-decoration: underline;
+}
+#repo-title{
+    color:#6D2224;
+}
+#repo-prof{
+    display: block;
+    margin: 0 auto 15px auto;   
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#profile p {
+    width: 100%;
+    text-align: left;   /* cleaner for info */
+    margin: 5px 0;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 20px;
+}
+.recent-box {
+    margin:10px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#recentList {
+    list-style: none;
+    padding: 0;
+}
+
+#recentList li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+#recentList li:hover {
+    color: #00ffcc;
+}

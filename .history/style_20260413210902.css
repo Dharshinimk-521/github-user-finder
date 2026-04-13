@@ -1,0 +1,32 @@
+body{
+    background-color: #523D49;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    text-align: center;
+}
+.title{
+   font-size:45px;
+   text-decoration: dashed;
+}
+#input{
+    background-color: rgba(0, 0, 0, 0.6); /* black with opacity */
+    color: white;
+    padding: 20px;
+    margin:15px;
+    border-style: 2px solid white;
+    border-radius: 2px;
+    outline:purple;
+    width:300px;
+}
+#input:focus{
+    border-color: #590a35;
+    box-shadow: 0 0 10px #00ffcc; 
+}
+#search{
+    padding:10px;
+    margin: 20px 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
